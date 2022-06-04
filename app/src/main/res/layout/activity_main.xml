@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="이메이ㄹ"/>
     <EditText
+        android:id="@+id/emailEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
@@ -24,20 +25,17 @@
         android:layout_marginTop="15dp"/>
 
     <EditText
+        android:id="@+id/passwordExt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="password"/>
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인"/>
-
-
-
-
-
 
 
 </LinearLayout>
