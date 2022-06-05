@@ -2,7 +2,6 @@ package com.example.colosseum_bong
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
 
@@ -14,20 +13,9 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setupEvents() {
-
-        loginBtn.setOnClickListener {
-
-            val inputEmail = emailEdt.text.toString()
-            val inputPw = passwordExt.text.toString()
-
-
-        }
-
-
     }
 
     override fun setValues() {
-
     }
 
 

@@ -7,35 +7,4 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="이메이ㄹ"/>
-    <EditText
-        android:id="@+id/emailEdt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="이메일"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="비밀번호"
-        android:layout_marginTop="15dp"/>
-
-    <EditText
-        android:id="@+id/passwordExt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="password"/>
-
-    <Button
-        android:id="@+id/loginBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="로그인"/>
-
-
 </LinearLayout>
