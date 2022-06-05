@@ -35,7 +35,6 @@ class LoginActivity : BaseActivity() {
 //                        로그인 성공
                         val myIntent = Intent(mContext, MainActivity::class.java)
                         startActivity(myIntent)
-
                         finish()
 
                     }
